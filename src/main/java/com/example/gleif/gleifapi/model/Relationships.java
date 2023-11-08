@@ -1,23 +1,23 @@
 package com.example.gleif.gleifapi.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import com.google.gson.annotations.SerializedName;
 import lombok.Data;
 
 @Data
 public class Relationships {
 
-    @JsonProperty("managing-lou")
+    @SerializedName("managing-lou")
     private ManagingLou managingLou;
 
-    @JsonProperty("lei-issuer")
+    @SerializedName("lei-issuer")
     private LeiIssuer leiIssuer;
 
-    @JsonProperty("field-modifications")
+    @SerializedName("field-modifications")
     private FieldModifications fieldModifications;
 
-    @JsonProperty("direct-parent")
+    @SerializedName("direct-parent")
     private DirectParent directParent;
 
-    @JsonProperty("ultimate-parent")
+    @SerializedName("ultimate-parent")
     private UltimateParent ultimateParent;
 }

@@ -1,15 +1,26 @@
 package com.example.gleif.gleifapi.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import com.google.gson.annotations.SerializedName;
 import lombok.Data;
 
 @Data
 public class Pagination {
+
+    @SerializedName("currentPage")
     private int currentPage;
+
+    @SerializedName("perPage")
     private int perPage;
+
+    @SerializedName("from")
     private int from;
-    @JsonProperty("to")
-    private int myTo;
+
+    @SerializedName("to")
+    private int to;
+
+    @SerializedName("total")
     public int total;
+
+    @SerializedName("lastPage")
     public int lastPage;
 }

@@ -1,0 +1,2072 @@
+{
+  "meta": {
+    "goldenCopy": {
+      "publishDate": "2023-11-02T16:00:00Z"
+    },
+    "pagination": {
+      "currentPage": 1,
+      "perPage": 15,
+      "from": 1,
+      "to": 15,
+      "total": 2493361,
+      "lastPage": 166225
+    }
+  },
+  "links": {
+    "first": "https://api.gleif.org/api/v1/lei-records?page%5Bnumber%5D=1&page%5Bsize%5D=15",
+    "next": "https://api.gleif.org/api/v1/lei-records?page%5Bnumber%5D=2&page%5Bsize%5D=15",
+    "last": "https://api.gleif.org/api/v1/lei-records?page%5Bnumber%5D=166225&page%5Bsize%5D=15"
+  },
+  "data": [
+    {
+      "type": "lei-records",
+      "id": "636700Q7O5YWW81RMU31",
+      "attributes": {
+        "lei": "636700Q7O5YWW81RMU31",
+        "entity": {
+          "legalName": {
+            "name": "REM Elektriska AB",
+            "language": "sv"
+          },
+          "otherNames": [],
+          "transliteratedOtherNames": [],
+          "legalAddress": {
+            "language": "sv",
+            "addressLines": [
+              "V\u00e5rv\u00e4gen 19"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "V\u00e4sterhaninge",
+            "region": "SE-AB",
+            "country": "SE",
+            "postalCode": "137 41"
+          },
+          "headquartersAddress": {
+            "language": "sv",
+            "addressLines": [
+              "V\u00e5rv\u00e4gen 19"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "V\u00e4sterhaninge",
+            "region": "SE-AB",
+            "country": "SE",
+            "postalCode": "137 41"
+          },
+          "registeredAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "registeredAs": "556157-5308",
+          "jurisdiction": "SE",
+          "category": "GENERAL",
+          "legalForm": {
+            "id": "XJHM",
+            "other": null
+          },
+          "associatedEntity": {
+            "lei": null,
+            "name": null
+          },
+          "status": "ACTIVE",
+          "expiration": {
+            "date": null,
+            "reason": null
+          },
+          "successorEntity": {
+            "lei": null,
+            "name": null
+          },
+          "successorEntities": [],
+          "creationDate": "1972-01-31T00:00:00Z",
+          "subCategory": null,
+          "otherAddresses": [
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "sv",
+              "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_ADDRESS",
+              "addressLines": [
+                "Varvagen 19"
+              ],
+              "city": "Vasterhaninge",
+              "region": "SE-AB",
+              "country": "SE",
+              "postalCode": "137 41"
+            },
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "sv",
+              "type": "AUTO_ASCII_TRANSLITERATED_HEADQUARTERS_ADDRESS",
+              "addressLines": [
+                "Varvagen 19"
+              ],
+              "city": "Vasterhaninge",
+              "region": "SE-AB",
+              "country": "SE",
+              "postalCode": "137 41"
+            }
+          ],
+          "eventGroups": []
+        },
+        "registration": {
+          "initialRegistrationDate": "2023-11-02T14:51:00Z",
+          "lastUpdateDate": "2023-11-02T14:51:00Z",
+          "status": "ISSUED",
+          "nextRenewalDate": "2024-11-02T14:51:00Z",
+          "managingLou": "549300O897ZC5H7CY412",
+          "corroborationLevel": "FULLY_CORROBORATED",
+          "validatedAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "validatedAs": "556157-5308",
+          "otherValidationAuthorities": []
+        },
+        "bic": null,
+        "mic": null,
+        "ocid": null,
+        "spglobal": null
+      },
+      "relationships": {
+        "managing-lou": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700Q7O5YWW81RMU31/managing-lou"
+          }
+        },
+        "lei-issuer": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700Q7O5YWW81RMU31/lei-issuer"
+          }
+        },
+        "field-modifications": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700Q7O5YWW81RMU31/field-modifications"
+          }
+        },
+        "direct-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700Q7O5YWW81RMU31/direct-parent-reporting-exception"
+          }
+        },
+        "ultimate-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700Q7O5YWW81RMU31/ultimate-parent-reporting-exception"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-records/636700Q7O5YWW81RMU31"
+      }
+    },
+    {
+      "type": "lei-records",
+      "id": "636700KLFYBEXNP0ON75",
+      "attributes": {
+        "lei": "636700KLFYBEXNP0ON75",
+        "entity": {
+          "legalName": {
+            "name": "Erik Jonsson F\u00f6rvaltning AB",
+            "language": "sv"
+          },
+          "otherNames": [],
+          "transliteratedOtherNames": [
+            {
+              "name": "Erik Jonsson Forvaltning AB",
+              "language": "sv",
+              "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_NAME"
+            }
+          ],
+          "legalAddress": {
+            "language": "sv",
+            "addressLines": [
+              "Husby-sjutholft 17"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "Ekolsund",
+            "region": "SE-C",
+            "country": "SE",
+            "postalCode": "749 50"
+          },
+          "headquartersAddress": {
+            "language": "sv",
+            "addressLines": [
+              "Husby-sjutholft 17"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "Ekolsund",
+            "region": "SE-C",
+            "country": "SE",
+            "postalCode": "749 50"
+          },
+          "registeredAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "registeredAs": "559071-6238",
+          "jurisdiction": "SE",
+          "category": "GENERAL",
+          "legalForm": {
+            "id": "XJHM",
+            "other": null
+          },
+          "associatedEntity": {
+            "lei": null,
+            "name": null
+          },
+          "status": "ACTIVE",
+          "expiration": {
+            "date": null,
+            "reason": null
+          },
+          "successorEntity": {
+            "lei": null,
+            "name": null
+          },
+          "successorEntities": [],
+          "creationDate": "2016-07-29T00:00:00Z",
+          "subCategory": null,
+          "otherAddresses": [],
+          "eventGroups": []
+        },
+        "registration": {
+          "initialRegistrationDate": "2023-11-02T13:57:00Z",
+          "lastUpdateDate": "2023-11-02T13:57:00Z",
+          "status": "ISSUED",
+          "nextRenewalDate": "2024-11-02T13:57:00Z",
+          "managingLou": "549300O897ZC5H7CY412",
+          "corroborationLevel": "FULLY_CORROBORATED",
+          "validatedAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "validatedAs": "559071-6238",
+          "otherValidationAuthorities": []
+        },
+        "bic": null,
+        "mic": null,
+        "ocid": null,
+        "spglobal": null
+      },
+      "relationships": {
+        "managing-lou": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700KLFYBEXNP0ON75/managing-lou"
+          }
+        },
+        "lei-issuer": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700KLFYBEXNP0ON75/lei-issuer"
+          }
+        },
+        "field-modifications": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700KLFYBEXNP0ON75/field-modifications"
+          }
+        },
+        "direct-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700KLFYBEXNP0ON75/direct-parent-reporting-exception"
+          }
+        },
+        "ultimate-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700KLFYBEXNP0ON75/ultimate-parent-reporting-exception"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-records/636700KLFYBEXNP0ON75"
+      }
+    },
+    {
+      "type": "lei-records",
+      "id": "636700JQJP5PXKNPCY78",
+      "attributes": {
+        "lei": "636700JQJP5PXKNPCY78",
+        "entity": {
+          "legalName": {
+            "name": "UZ AB",
+            "language": "sv"
+          },
+          "otherNames": [],
+          "transliteratedOtherNames": [],
+          "legalAddress": {
+            "language": "sv",
+            "addressLines": [
+              "Bredasten"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "V\u00e4rnamo",
+            "region": "SE-F",
+            "country": "SE",
+            "postalCode": "331 93"
+          },
+          "headquartersAddress": {
+            "language": "sv",
+            "addressLines": [
+              "Bredasten"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "V\u00e4rnamo",
+            "region": "SE-F",
+            "country": "SE",
+            "postalCode": "331 93"
+          },
+          "registeredAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "registeredAs": "556678-8054",
+          "jurisdiction": "SE",
+          "category": "GENERAL",
+          "legalForm": {
+            "id": "XJHM",
+            "other": null
+          },
+          "associatedEntity": {
+            "lei": null,
+            "name": null
+          },
+          "status": "ACTIVE",
+          "expiration": {
+            "date": null,
+            "reason": null
+          },
+          "successorEntity": {
+            "lei": null,
+            "name": null
+          },
+          "successorEntities": [],
+          "creationDate": "2005-04-02T00:00:00Z",
+          "subCategory": null,
+          "otherAddresses": [],
+          "eventGroups": []
+        },
+        "registration": {
+          "initialRegistrationDate": "2023-11-02T13:53:00Z",
+          "lastUpdateDate": "2023-11-02T13:53:00Z",
+          "status": "ISSUED",
+          "nextRenewalDate": "2024-11-02T13:53:00Z",
+          "managingLou": "549300O897ZC5H7CY412",
+          "corroborationLevel": "FULLY_CORROBORATED",
+          "validatedAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "validatedAs": "556678-8054",
+          "otherValidationAuthorities": []
+        },
+        "bic": null,
+        "mic": null,
+        "ocid": null,
+        "spglobal": null
+      },
+      "relationships": {
+        "managing-lou": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700JQJP5PXKNPCY78/managing-lou"
+          }
+        },
+        "lei-issuer": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700JQJP5PXKNPCY78/lei-issuer"
+          }
+        },
+        "field-modifications": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700JQJP5PXKNPCY78/field-modifications"
+          }
+        },
+        "direct-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700JQJP5PXKNPCY78/direct-parent-reporting-exception"
+          }
+        },
+        "ultimate-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700JQJP5PXKNPCY78/ultimate-parent-reporting-exception"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-records/636700JQJP5PXKNPCY78"
+      }
+    },
+    {
+      "type": "lei-records",
+      "id": "636700D8222M4RDK1B47",
+      "attributes": {
+        "lei": "636700D8222M4RDK1B47",
+        "entity": {
+          "legalName": {
+            "name": "LEHN INVEST 2 AS",
+            "language": "no"
+          },
+          "otherNames": [],
+          "transliteratedOtherNames": [],
+          "legalAddress": {
+            "language": "no",
+            "addressLines": [
+              "Haugsvingen 19"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "Elnesv\u00e5gen",
+            "region": "NO-15",
+            "country": "NO",
+            "postalCode": "6440"
+          },
+          "headquartersAddress": {
+            "language": "no",
+            "addressLines": [
+              "Haugsvingen 19"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "Elnesv\u00e5gen",
+            "region": "NO-15",
+            "country": "NO",
+            "postalCode": "6440"
+          },
+          "registeredAt": {
+            "id": "RA000472",
+            "other": null
+          },
+          "registeredAs": "929 406 168",
+          "jurisdiction": "NO",
+          "category": "GENERAL",
+          "legalForm": {
+            "id": "YI42",
+            "other": null
+          },
+          "associatedEntity": {
+            "lei": null,
+            "name": null
+          },
+          "status": "ACTIVE",
+          "expiration": {
+            "date": null,
+            "reason": null
+          },
+          "successorEntity": {
+            "lei": null,
+            "name": null
+          },
+          "successorEntities": [],
+          "creationDate": "2022-06-23T02:00:00Z",
+          "subCategory": null,
+          "otherAddresses": [
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "no",
+              "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_ADDRESS",
+              "addressLines": [
+                "Haugsvingen 19"
+              ],
+              "city": "Elnesvagen",
+              "region": "NO-15",
+              "country": "NO",
+              "postalCode": "6440"
+            },
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "no",
+              "type": "AUTO_ASCII_TRANSLITERATED_HEADQUARTERS_ADDRESS",
+              "addressLines": [
+                "Haugsvingen 19"
+              ],
+              "city": "Elnesvagen",
+              "region": "NO-15",
+              "country": "NO",
+              "postalCode": "6440"
+            }
+          ],
+          "eventGroups": []
+        },
+        "registration": {
+          "initialRegistrationDate": "2023-11-02T13:51:00Z",
+          "lastUpdateDate": "2023-11-02T13:51:00Z",
+          "status": "ISSUED",
+          "nextRenewalDate": "2024-11-02T13:51:00Z",
+          "managingLou": "549300O897ZC5H7CY412",
+          "corroborationLevel": "FULLY_CORROBORATED",
+          "validatedAt": {
+            "id": "RA000472",
+            "other": null
+          },
+          "validatedAs": "929 406 168",
+          "otherValidationAuthorities": []
+        },
+        "bic": null,
+        "mic": null,
+        "ocid": null,
+        "spglobal": null
+      },
+      "relationships": {
+        "managing-lou": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700D8222M4RDK1B47/managing-lou"
+          }
+        },
+        "lei-issuer": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700D8222M4RDK1B47/lei-issuer"
+          }
+        },
+        "field-modifications": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700D8222M4RDK1B47/field-modifications"
+          }
+        },
+        "direct-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700D8222M4RDK1B47/direct-parent-reporting-exception"
+          }
+        },
+        "ultimate-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700D8222M4RDK1B47/ultimate-parent-reporting-exception"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-records/636700D8222M4RDK1B47"
+      }
+    },
+    {
+      "type": "lei-records",
+      "id": "636700E1B8W1FXJKAO38",
+      "attributes": {
+        "lei": "636700E1B8W1FXJKAO38",
+        "entity": {
+          "legalName": {
+            "name": "SoHundred AB",
+            "language": "sv"
+          },
+          "otherNames": [],
+          "transliteratedOtherNames": [],
+          "legalAddress": {
+            "language": "sv",
+            "addressLines": [
+              "C/O Sundheden",
+              "Hammarby Alle 28"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": "C/O Sundheden",
+            "city": "Stockholm",
+            "region": "SE-AB",
+            "country": "SE",
+            "postalCode": "120 61"
+          },
+          "headquartersAddress": {
+            "language": "sv",
+            "addressLines": [
+              "C/O Sundheden",
+              "Hammarby Alle 28"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": "C/O Sundheden",
+            "city": "Stockholm",
+            "region": "SE-AB",
+            "country": "SE",
+            "postalCode": "120 61"
+          },
+          "registeredAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "registeredAs": "556947-7945",
+          "jurisdiction": "SE",
+          "category": "GENERAL",
+          "legalForm": {
+            "id": "XJHM",
+            "other": null
+          },
+          "associatedEntity": {
+            "lei": null,
+            "name": null
+          },
+          "status": "ACTIVE",
+          "expiration": {
+            "date": null,
+            "reason": null
+          },
+          "successorEntity": {
+            "lei": null,
+            "name": null
+          },
+          "successorEntities": [],
+          "creationDate": "2013-11-06T00:00:00Z",
+          "subCategory": null,
+          "otherAddresses": [],
+          "eventGroups": []
+        },
+        "registration": {
+          "initialRegistrationDate": "2023-11-02T13:49:00Z",
+          "lastUpdateDate": "2023-11-02T13:49:00Z",
+          "status": "ISSUED",
+          "nextRenewalDate": "2024-11-02T13:49:00Z",
+          "managingLou": "549300O897ZC5H7CY412",
+          "corroborationLevel": "FULLY_CORROBORATED",
+          "validatedAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "validatedAs": "556947-7945",
+          "otherValidationAuthorities": []
+        },
+        "bic": null,
+        "mic": null,
+        "ocid": null,
+        "spglobal": null
+      },
+      "relationships": {
+        "managing-lou": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700E1B8W1FXJKAO38/managing-lou"
+          }
+        },
+        "lei-issuer": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700E1B8W1FXJKAO38/lei-issuer"
+          }
+        },
+        "field-modifications": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700E1B8W1FXJKAO38/field-modifications"
+          }
+        },
+        "direct-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700E1B8W1FXJKAO38/direct-parent-reporting-exception"
+          }
+        },
+        "ultimate-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700E1B8W1FXJKAO38/ultimate-parent-reporting-exception"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-records/636700E1B8W1FXJKAO38"
+      }
+    },
+    {
+      "type": "lei-records",
+      "id": "636700B13XB0FLKT0467",
+      "attributes": {
+        "lei": "636700B13XB0FLKT0467",
+        "entity": {
+          "legalName": {
+            "name": "XANIA GROUP AS",
+            "language": "no"
+          },
+          "otherNames": [],
+          "transliteratedOtherNames": [],
+          "legalAddress": {
+            "language": "no",
+            "addressLines": [
+              "c/o Otterhaug Land\u00f8ystranda 4"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": "c/o Otterhaug Land\u00f8ystranda 4",
+            "city": "Nesbru",
+            "region": "NO-30",
+            "country": "NO",
+            "postalCode": "1394"
+          },
+          "headquartersAddress": {
+            "language": "no",
+            "addressLines": [
+              "c/o Otterhaug Land\u00f8ystranda 4"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": "c/o Otterhaug Land\u00f8ystranda 4",
+            "city": "Nesbru",
+            "region": "NO-30",
+            "country": "NO",
+            "postalCode": "1394"
+          },
+          "registeredAt": {
+            "id": "RA000472",
+            "other": null
+          },
+          "registeredAs": "927 523 000",
+          "jurisdiction": "NO",
+          "category": "GENERAL",
+          "legalForm": {
+            "id": "YI42",
+            "other": null
+          },
+          "associatedEntity": {
+            "lei": null,
+            "name": null
+          },
+          "status": "ACTIVE",
+          "expiration": {
+            "date": null,
+            "reason": null
+          },
+          "successorEntity": {
+            "lei": null,
+            "name": null
+          },
+          "successorEntities": [],
+          "creationDate": "2021-08-13T00:00:00Z",
+          "subCategory": null,
+          "otherAddresses": [
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "no",
+              "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_ADDRESS",
+              "addressLines": [
+                "c/o Otterhaug Landoystranda 4"
+              ],
+              "mailRouting": "c/o Otterhaug Landoystranda 4",
+              "city": "Nesbru",
+              "region": "NO-30",
+              "country": "NO",
+              "postalCode": "1394"
+            },
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "no",
+              "type": "AUTO_ASCII_TRANSLITERATED_HEADQUARTERS_ADDRESS",
+              "addressLines": [
+                "c/o Otterhaug Landoystranda 4"
+              ],
+              "mailRouting": "c/o Otterhaug Landoystranda 4",
+              "city": "Nesbru",
+              "region": "NO-30",
+              "country": "NO",
+              "postalCode": "1394"
+            }
+          ],
+          "eventGroups": []
+        },
+        "registration": {
+          "initialRegistrationDate": "2023-11-02T13:48:00Z",
+          "lastUpdateDate": "2023-11-02T13:48:00Z",
+          "status": "ISSUED",
+          "nextRenewalDate": "2024-11-02T13:48:00Z",
+          "managingLou": "549300O897ZC5H7CY412",
+          "corroborationLevel": "FULLY_CORROBORATED",
+          "validatedAt": {
+            "id": "RA000472",
+            "other": null
+          },
+          "validatedAs": "927 523 000",
+          "otherValidationAuthorities": []
+        },
+        "bic": null,
+        "mic": null,
+        "ocid": null,
+        "spglobal": null
+      },
+      "relationships": {
+        "managing-lou": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700B13XB0FLKT0467/managing-lou"
+          }
+        },
+        "lei-issuer": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700B13XB0FLKT0467/lei-issuer"
+          }
+        },
+        "field-modifications": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700B13XB0FLKT0467/field-modifications"
+          }
+        },
+        "direct-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700B13XB0FLKT0467/direct-parent-reporting-exception"
+          }
+        },
+        "ultimate-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700B13XB0FLKT0467/ultimate-parent-reporting-exception"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-records/636700B13XB0FLKT0467"
+      }
+    },
+    {
+      "type": "lei-records",
+      "id": "636700KZGZKPHNW1YM13",
+      "attributes": {
+        "lei": "636700KZGZKPHNW1YM13",
+        "entity": {
+          "legalName": {
+            "name": "OCP Autoteknik AB",
+            "language": "sv"
+          },
+          "otherNames": [],
+          "transliteratedOtherNames": [],
+          "legalAddress": {
+            "language": "sv",
+            "addressLines": [
+              "\u00c5by 510"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "L\u00e4ckeby",
+            "region": "SE-H",
+            "country": "SE",
+            "postalCode": "395 98"
+          },
+          "headquartersAddress": {
+            "language": "sv",
+            "addressLines": [
+              "\u00c5by 510"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "L\u00e4ckeby",
+            "region": "SE-H",
+            "country": "SE",
+            "postalCode": "395 98"
+          },
+          "registeredAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "registeredAs": "559094-0739",
+          "jurisdiction": "SE",
+          "category": "GENERAL",
+          "legalForm": {
+            "id": "XJHM",
+            "other": null
+          },
+          "associatedEntity": {
+            "lei": null,
+            "name": null
+          },
+          "status": "ACTIVE",
+          "expiration": {
+            "date": null,
+            "reason": null
+          },
+          "successorEntity": {
+            "lei": null,
+            "name": null
+          },
+          "successorEntities": [],
+          "creationDate": "2016-12-23T00:00:00Z",
+          "subCategory": null,
+          "otherAddresses": [
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "sv",
+              "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_ADDRESS",
+              "addressLines": [
+                "Aby 510"
+              ],
+              "city": "Lackeby",
+              "region": "SE-H",
+              "country": "SE",
+              "postalCode": "395 98"
+            },
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "sv",
+              "type": "AUTO_ASCII_TRANSLITERATED_HEADQUARTERS_ADDRESS",
+              "addressLines": [
+                "Aby 510"
+              ],
+              "city": "Lackeby",
+              "region": "SE-H",
+              "country": "SE",
+              "postalCode": "395 98"
+            }
+          ],
+          "eventGroups": []
+        },
+        "registration": {
+          "initialRegistrationDate": "2023-11-02T13:47:00Z",
+          "lastUpdateDate": "2023-11-02T13:47:00Z",
+          "status": "ISSUED",
+          "nextRenewalDate": "2024-11-02T13:47:00Z",
+          "managingLou": "549300O897ZC5H7CY412",
+          "corroborationLevel": "FULLY_CORROBORATED",
+          "validatedAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "validatedAs": "559094-0739",
+          "otherValidationAuthorities": []
+        },
+        "bic": null,
+        "mic": null,
+        "ocid": null,
+        "spglobal": null
+      },
+      "relationships": {
+        "managing-lou": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700KZGZKPHNW1YM13/managing-lou"
+          }
+        },
+        "lei-issuer": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700KZGZKPHNW1YM13/lei-issuer"
+          }
+        },
+        "field-modifications": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700KZGZKPHNW1YM13/field-modifications"
+          }
+        },
+        "direct-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700KZGZKPHNW1YM13/direct-parent-reporting-exception"
+          }
+        },
+        "ultimate-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700KZGZKPHNW1YM13/ultimate-parent-reporting-exception"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-records/636700KZGZKPHNW1YM13"
+      }
+    },
+    {
+      "type": "lei-records",
+      "id": "636700D6MPWVPMPI5U70",
+      "attributes": {
+        "lei": "636700D6MPWVPMPI5U70",
+        "entity": {
+          "legalName": {
+            "name": "Westerdahls Husvagnscenter Aktiebolag",
+            "language": "sv"
+          },
+          "otherNames": [],
+          "transliteratedOtherNames": [],
+          "legalAddress": {
+            "language": "sv",
+            "addressLines": [
+              "Dialoggatan 3"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "\u00d6rebro",
+            "region": "SE-T",
+            "country": "SE",
+            "postalCode": "703 74"
+          },
+          "headquartersAddress": {
+            "language": "sv",
+            "addressLines": [
+              "Dialoggatan 3"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "\u00d6rebro",
+            "region": "SE-T",
+            "country": "SE",
+            "postalCode": "703 74"
+          },
+          "registeredAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "registeredAs": "556265-1249",
+          "jurisdiction": "SE",
+          "category": "GENERAL",
+          "legalForm": {
+            "id": "XJHM",
+            "other": null
+          },
+          "associatedEntity": {
+            "lei": null,
+            "name": null
+          },
+          "status": "ACTIVE",
+          "expiration": {
+            "date": null,
+            "reason": null
+          },
+          "successorEntity": {
+            "lei": null,
+            "name": null
+          },
+          "successorEntities": [],
+          "creationDate": "1985-09-23T00:00:00Z",
+          "subCategory": null,
+          "otherAddresses": [
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "sv",
+              "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_ADDRESS",
+              "addressLines": [
+                "Dialoggatan 3"
+              ],
+              "city": "Orebro",
+              "region": "SE-T",
+              "country": "SE",
+              "postalCode": "703 74"
+            },
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "sv",
+              "type": "AUTO_ASCII_TRANSLITERATED_HEADQUARTERS_ADDRESS",
+              "addressLines": [
+                "Dialoggatan 3"
+              ],
+              "city": "Orebro",
+              "region": "SE-T",
+              "country": "SE",
+              "postalCode": "703 74"
+            }
+          ],
+          "eventGroups": []
+        },
+        "registration": {
+          "initialRegistrationDate": "2023-11-02T13:46:00Z",
+          "lastUpdateDate": "2023-11-02T13:46:00Z",
+          "status": "ISSUED",
+          "nextRenewalDate": "2024-11-02T13:46:00Z",
+          "managingLou": "549300O897ZC5H7CY412",
+          "corroborationLevel": "FULLY_CORROBORATED",
+          "validatedAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "validatedAs": "556265-1249",
+          "otherValidationAuthorities": []
+        },
+        "bic": null,
+        "mic": null,
+        "ocid": null,
+        "spglobal": null
+      },
+      "relationships": {
+        "managing-lou": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700D6MPWVPMPI5U70/managing-lou"
+          }
+        },
+        "lei-issuer": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700D6MPWVPMPI5U70/lei-issuer"
+          }
+        },
+        "field-modifications": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700D6MPWVPMPI5U70/field-modifications"
+          }
+        },
+        "direct-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700D6MPWVPMPI5U70/direct-parent-reporting-exception"
+          }
+        },
+        "ultimate-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700D6MPWVPMPI5U70/ultimate-parent-reporting-exception"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-records/636700D6MPWVPMPI5U70"
+      }
+    },
+    {
+      "type": "lei-records",
+      "id": "636700Q3T4XGRAV2SP61",
+      "attributes": {
+        "lei": "636700Q3T4XGRAV2SP61",
+        "entity": {
+          "legalName": {
+            "name": "INVESTY AS",
+            "language": "no"
+          },
+          "otherNames": [],
+          "transliteratedOtherNames": [],
+          "legalAddress": {
+            "language": "no",
+            "addressLines": [
+              "Grenseveien 54"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "Oslo",
+            "region": "NO-03",
+            "country": "NO",
+            "postalCode": "0579"
+          },
+          "headquartersAddress": {
+            "language": "no",
+            "addressLines": [
+              "Grenseveien 54"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "Oslo",
+            "region": "NO-03",
+            "country": "NO",
+            "postalCode": "0579"
+          },
+          "registeredAt": {
+            "id": "RA000472",
+            "other": null
+          },
+          "registeredAs": "932 204 282",
+          "jurisdiction": "NO",
+          "category": "GENERAL",
+          "legalForm": {
+            "id": "YI42",
+            "other": null
+          },
+          "associatedEntity": {
+            "lei": null,
+            "name": null
+          },
+          "status": "ACTIVE",
+          "expiration": {
+            "date": null,
+            "reason": null
+          },
+          "successorEntity": {
+            "lei": null,
+            "name": null
+          },
+          "successorEntities": [],
+          "creationDate": "2023-10-07T00:00:00Z",
+          "subCategory": null,
+          "otherAddresses": [],
+          "eventGroups": []
+        },
+        "registration": {
+          "initialRegistrationDate": "2023-11-02T13:45:00Z",
+          "lastUpdateDate": "2023-11-02T13:45:00Z",
+          "status": "ISSUED",
+          "nextRenewalDate": "2024-11-02T13:45:00Z",
+          "managingLou": "549300O897ZC5H7CY412",
+          "corroborationLevel": "FULLY_CORROBORATED",
+          "validatedAt": {
+            "id": "RA000472",
+            "other": null
+          },
+          "validatedAs": "932 204 282",
+          "otherValidationAuthorities": []
+        },
+        "bic": null,
+        "mic": null,
+        "ocid": null,
+        "spglobal": null
+      },
+      "relationships": {
+        "managing-lou": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700Q3T4XGRAV2SP61/managing-lou"
+          }
+        },
+        "lei-issuer": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700Q3T4XGRAV2SP61/lei-issuer"
+          }
+        },
+        "field-modifications": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700Q3T4XGRAV2SP61/field-modifications"
+          }
+        },
+        "direct-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700Q3T4XGRAV2SP61/direct-parent-reporting-exception"
+          }
+        },
+        "ultimate-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700Q3T4XGRAV2SP61/ultimate-parent-reporting-exception"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-records/636700Q3T4XGRAV2SP61"
+      }
+    },
+    {
+      "type": "lei-records",
+      "id": "636700MP5Y4S7MMW1623",
+      "attributes": {
+        "lei": "636700MP5Y4S7MMW1623",
+        "entity": {
+          "legalName": {
+            "name": "A. Wallen\u00e5s AB",
+            "language": "sv"
+          },
+          "otherNames": [],
+          "transliteratedOtherNames": [
+            {
+              "name": "A. Wallenas AB",
+              "language": "sv",
+              "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_NAME"
+            }
+          ],
+          "legalAddress": {
+            "language": "sv",
+            "addressLines": [
+              "Karstorpsv\u00e4gen 26"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "Lomma",
+            "region": "SE-M",
+            "country": "SE",
+            "postalCode": "234 42"
+          },
+          "headquartersAddress": {
+            "language": "sv",
+            "addressLines": [
+              "Karstorpsv\u00e4gen 26"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "Lomma",
+            "region": "SE-M",
+            "country": "SE",
+            "postalCode": "234 42"
+          },
+          "registeredAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "registeredAs": "556787-9779",
+          "jurisdiction": "SE",
+          "category": "GENERAL",
+          "legalForm": {
+            "id": "XJHM",
+            "other": null
+          },
+          "associatedEntity": {
+            "lei": null,
+            "name": null
+          },
+          "status": "ACTIVE",
+          "expiration": {
+            "date": null,
+            "reason": null
+          },
+          "successorEntity": {
+            "lei": null,
+            "name": null
+          },
+          "successorEntities": [],
+          "creationDate": "2009-08-31T00:00:00Z",
+          "subCategory": null,
+          "otherAddresses": [
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "sv",
+              "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_ADDRESS",
+              "addressLines": [
+                "Karstorpsvagen 26"
+              ],
+              "city": "Lomma",
+              "region": "SE-M",
+              "country": "SE",
+              "postalCode": "234 42"
+            },
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "sv",
+              "type": "AUTO_ASCII_TRANSLITERATED_HEADQUARTERS_ADDRESS",
+              "addressLines": [
+                "Karstorpsvagen 26"
+              ],
+              "city": "Lomma",
+              "region": "SE-M",
+              "country": "SE",
+              "postalCode": "234 42"
+            }
+          ],
+          "eventGroups": []
+        },
+        "registration": {
+          "initialRegistrationDate": "2023-11-02T13:44:00Z",
+          "lastUpdateDate": "2023-11-02T13:44:00Z",
+          "status": "ISSUED",
+          "nextRenewalDate": "2024-11-02T13:44:00Z",
+          "managingLou": "549300O897ZC5H7CY412",
+          "corroborationLevel": "FULLY_CORROBORATED",
+          "validatedAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "validatedAs": "556787-9779",
+          "otherValidationAuthorities": []
+        },
+        "bic": null,
+        "mic": null,
+        "ocid": null,
+        "spglobal": null
+      },
+      "relationships": {
+        "managing-lou": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700MP5Y4S7MMW1623/managing-lou"
+          }
+        },
+        "lei-issuer": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700MP5Y4S7MMW1623/lei-issuer"
+          }
+        },
+        "field-modifications": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700MP5Y4S7MMW1623/field-modifications"
+          }
+        },
+        "direct-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700MP5Y4S7MMW1623/direct-parent-reporting-exception"
+          }
+        },
+        "ultimate-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700MP5Y4S7MMW1623/ultimate-parent-reporting-exception"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-records/636700MP5Y4S7MMW1623"
+      }
+    },
+    {
+      "type": "lei-records",
+      "id": "636700G30GZD8IK51Q95",
+      "attributes": {
+        "lei": "636700G30GZD8IK51Q95",
+        "entity": {
+          "legalName": {
+            "name": "Flottstan Invest AB",
+            "language": "sv"
+          },
+          "otherNames": [],
+          "transliteratedOtherNames": [],
+          "legalAddress": {
+            "language": "sv",
+            "addressLines": [
+              "Br\u00e4nta F\u00e4rilav\u00e4gen 43"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "Ljusdal",
+            "region": "SE-X",
+            "country": "SE",
+            "postalCode": "827 94"
+          },
+          "headquartersAddress": {
+            "language": "sv",
+            "addressLines": [
+              "Br\u00e4nta F\u00e4rilav\u00e4gen 43"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "Ljusdal",
+            "region": "SE-X",
+            "country": "SE",
+            "postalCode": "827 94"
+          },
+          "registeredAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "registeredAs": "559407-7397",
+          "jurisdiction": "SE",
+          "category": "GENERAL",
+          "legalForm": {
+            "id": "XJHM",
+            "other": null
+          },
+          "associatedEntity": {
+            "lei": null,
+            "name": null
+          },
+          "status": "ACTIVE",
+          "expiration": {
+            "date": null,
+            "reason": null
+          },
+          "successorEntity": {
+            "lei": null,
+            "name": null
+          },
+          "successorEntities": [],
+          "creationDate": "2022-11-24T01:00:00Z",
+          "subCategory": null,
+          "otherAddresses": [
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "sv",
+              "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_ADDRESS",
+              "addressLines": [
+                "Branta Farilavagen 43"
+              ],
+              "city": "Ljusdal",
+              "region": "SE-X",
+              "country": "SE",
+              "postalCode": "827 94"
+            },
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "sv",
+              "type": "AUTO_ASCII_TRANSLITERATED_HEADQUARTERS_ADDRESS",
+              "addressLines": [
+                "Branta Farilavagen 43"
+              ],
+              "city": "Ljusdal",
+              "region": "SE-X",
+              "country": "SE",
+              "postalCode": "827 94"
+            }
+          ],
+          "eventGroups": []
+        },
+        "registration": {
+          "initialRegistrationDate": "2023-11-02T13:43:00Z",
+          "lastUpdateDate": "2023-11-02T13:43:00Z",
+          "status": "ISSUED",
+          "nextRenewalDate": "2024-11-02T13:43:00Z",
+          "managingLou": "549300O897ZC5H7CY412",
+          "corroborationLevel": "FULLY_CORROBORATED",
+          "validatedAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "validatedAs": "559407-7397",
+          "otherValidationAuthorities": []
+        },
+        "bic": null,
+        "mic": null,
+        "ocid": null,
+        "spglobal": null
+      },
+      "relationships": {
+        "managing-lou": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700G30GZD8IK51Q95/managing-lou"
+          }
+        },
+        "lei-issuer": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700G30GZD8IK51Q95/lei-issuer"
+          }
+        },
+        "field-modifications": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700G30GZD8IK51Q95/field-modifications"
+          }
+        },
+        "direct-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700G30GZD8IK51Q95/direct-parent-reporting-exception"
+          }
+        },
+        "ultimate-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700G30GZD8IK51Q95/ultimate-parent-reporting-exception"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-records/636700G30GZD8IK51Q95"
+      }
+    },
+    {
+      "type": "lei-records",
+      "id": "636700T3UXQOOGZYW046",
+      "attributes": {
+        "lei": "636700T3UXQOOGZYW046",
+        "entity": {
+          "legalName": {
+            "name": "Kvistviken AB",
+            "language": "sv"
+          },
+          "otherNames": [],
+          "transliteratedOtherNames": [],
+          "legalAddress": {
+            "language": "sv",
+            "addressLines": [
+              "Br\u00e4nta F\u00e4rilav\u00e4gen 43"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "Ljusdal",
+            "region": "SE-X",
+            "country": "SE",
+            "postalCode": "827 94"
+          },
+          "headquartersAddress": {
+            "language": "sv",
+            "addressLines": [
+              "Br\u00e4nta F\u00e4rilav\u00e4gen 43"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": null,
+            "city": "Ljusdal",
+            "region": "SE-X",
+            "country": "SE",
+            "postalCode": "827 94"
+          },
+          "registeredAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "registeredAs": "559413-8165",
+          "jurisdiction": "SE",
+          "category": "GENERAL",
+          "legalForm": {
+            "id": "XJHM",
+            "other": null
+          },
+          "associatedEntity": {
+            "lei": null,
+            "name": null
+          },
+          "status": "ACTIVE",
+          "expiration": {
+            "date": null,
+            "reason": null
+          },
+          "successorEntity": {
+            "lei": null,
+            "name": null
+          },
+          "successorEntities": [],
+          "creationDate": "2022-12-20T00:00:00Z",
+          "subCategory": null,
+          "otherAddresses": [
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "sv",
+              "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_ADDRESS",
+              "addressLines": [
+                "Branta Farilavagen 43"
+              ],
+              "city": "Ljusdal",
+              "region": "SE-X",
+              "country": "SE",
+              "postalCode": "827 94"
+            },
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "sv",
+              "type": "AUTO_ASCII_TRANSLITERATED_HEADQUARTERS_ADDRESS",
+              "addressLines": [
+                "Branta Farilavagen 43"
+              ],
+              "city": "Ljusdal",
+              "region": "SE-X",
+              "country": "SE",
+              "postalCode": "827 94"
+            }
+          ],
+          "eventGroups": []
+        },
+        "registration": {
+          "initialRegistrationDate": "2023-11-02T13:41:00Z",
+          "lastUpdateDate": "2023-11-02T13:41:00Z",
+          "status": "ISSUED",
+          "nextRenewalDate": "2024-11-02T13:41:00Z",
+          "managingLou": "549300O897ZC5H7CY412",
+          "corroborationLevel": "FULLY_CORROBORATED",
+          "validatedAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "validatedAs": "559413-8165",
+          "otherValidationAuthorities": []
+        },
+        "bic": null,
+        "mic": null,
+        "ocid": null,
+        "spglobal": null
+      },
+      "relationships": {
+        "managing-lou": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700T3UXQOOGZYW046/managing-lou"
+          }
+        },
+        "lei-issuer": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700T3UXQOOGZYW046/lei-issuer"
+          }
+        },
+        "field-modifications": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700T3UXQOOGZYW046/field-modifications"
+          }
+        },
+        "direct-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700T3UXQOOGZYW046/direct-parent-reporting-exception"
+          }
+        },
+        "ultimate-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700T3UXQOOGZYW046/ultimate-parent-reporting-exception"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-records/636700T3UXQOOGZYW046"
+      }
+    },
+    {
+      "type": "lei-records",
+      "id": "636700UO891FHARS0964",
+      "attributes": {
+        "lei": "636700UO891FHARS0964",
+        "entity": {
+          "legalName": {
+            "name": "ESTR-AnLi AB",
+            "language": "sv"
+          },
+          "otherNames": [],
+          "transliteratedOtherNames": [],
+          "legalAddress": {
+            "language": "sv",
+            "addressLines": [
+              "C/O Remius Str\u00f6mberg",
+              "Sj\u00f6fartsgatan 8"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": "C/O Remius Str\u00f6mberg",
+            "city": "Stockholm",
+            "region": "SE-AB",
+            "country": "SE",
+            "postalCode": "120 62"
+          },
+          "headquartersAddress": {
+            "language": "sv",
+            "addressLines": [
+              "C/O Remius Str\u00f6mberg",
+              "Sj\u00f6fartsgatan 8"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": "C/O Remius Str\u00f6mberg",
+            "city": "Stockholm",
+            "region": "SE-AB",
+            "country": "SE",
+            "postalCode": "120 62"
+          },
+          "registeredAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "registeredAs": "559182-6218",
+          "jurisdiction": "SE",
+          "category": "GENERAL",
+          "legalForm": {
+            "id": "XJHM",
+            "other": null
+          },
+          "associatedEntity": {
+            "lei": null,
+            "name": null
+          },
+          "status": "ACTIVE",
+          "expiration": {
+            "date": null,
+            "reason": null
+          },
+          "successorEntity": {
+            "lei": null,
+            "name": null
+          },
+          "successorEntities": [],
+          "creationDate": "2018-11-29T00:00:00Z",
+          "subCategory": null,
+          "otherAddresses": [
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "sv",
+              "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_ADDRESS",
+              "addressLines": [
+                "C/O Remius Stromberg",
+                "Sjofartsgatan 8"
+              ],
+              "mailRouting": "C/O Remius Stromberg",
+              "city": "Stockholm",
+              "region": "SE-AB",
+              "country": "SE",
+              "postalCode": "120 62"
+            },
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "sv",
+              "type": "AUTO_ASCII_TRANSLITERATED_HEADQUARTERS_ADDRESS",
+              "addressLines": [
+                "C/O Remius Stromberg",
+                "Sjofartsgatan 8"
+              ],
+              "mailRouting": "C/O Remius Stromberg",
+              "city": "Stockholm",
+              "region": "SE-AB",
+              "country": "SE",
+              "postalCode": "120 62"
+            }
+          ],
+          "eventGroups": []
+        },
+        "registration": {
+          "initialRegistrationDate": "2023-11-02T13:38:00Z",
+          "lastUpdateDate": "2023-11-02T13:38:00Z",
+          "status": "ISSUED",
+          "nextRenewalDate": "2024-11-02T13:38:00Z",
+          "managingLou": "549300O897ZC5H7CY412",
+          "corroborationLevel": "FULLY_CORROBORATED",
+          "validatedAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "validatedAs": "559182-6218",
+          "otherValidationAuthorities": []
+        },
+        "bic": null,
+        "mic": null,
+        "ocid": null,
+        "spglobal": null
+      },
+      "relationships": {
+        "managing-lou": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700UO891FHARS0964/managing-lou"
+          }
+        },
+        "lei-issuer": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700UO891FHARS0964/lei-issuer"
+          }
+        },
+        "field-modifications": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700UO891FHARS0964/field-modifications"
+          }
+        },
+        "direct-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700UO891FHARS0964/direct-parent-reporting-exception"
+          }
+        },
+        "ultimate-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700UO891FHARS0964/ultimate-parent-reporting-exception"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-records/636700UO891FHARS0964"
+      }
+    },
+    {
+      "type": "lei-records",
+      "id": "636700IUH4S4NS1KX906",
+      "attributes": {
+        "lei": "636700IUH4S4NS1KX906",
+        "entity": {
+          "legalName": {
+            "name": "AnSt-Lire AB",
+            "language": "sv"
+          },
+          "otherNames": [],
+          "transliteratedOtherNames": [],
+          "legalAddress": {
+            "language": "sv",
+            "addressLines": [
+              "C/O Remius Str\u00f6mberg",
+              "Sj\u00f6fartsgatan 8"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": "C/O Remius Str\u00f6mberg",
+            "city": "Stockholm",
+            "region": "SE-AB",
+            "country": "SE",
+            "postalCode": "120 62"
+          },
+          "headquartersAddress": {
+            "language": "sv",
+            "addressLines": [
+              "C/O Remius Str\u00f6mberg",
+              "Sj\u00f6fartsgatan 8"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": "C/O Remius Str\u00f6mberg",
+            "city": "Stockholm",
+            "region": "SE-AB",
+            "country": "SE",
+            "postalCode": "120 62"
+          },
+          "registeredAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "registeredAs": "559180-0502",
+          "jurisdiction": "SE",
+          "category": "GENERAL",
+          "legalForm": {
+            "id": "XJHM",
+            "other": null
+          },
+          "associatedEntity": {
+            "lei": null,
+            "name": null
+          },
+          "status": "ACTIVE",
+          "expiration": {
+            "date": null,
+            "reason": null
+          },
+          "successorEntity": {
+            "lei": null,
+            "name": null
+          },
+          "successorEntities": [],
+          "creationDate": "2018-11-15T00:00:00Z",
+          "subCategory": null,
+          "otherAddresses": [
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "sv",
+              "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_ADDRESS",
+              "addressLines": [
+                "C/O Remius Stromberg",
+                "Sjofartsgatan 8"
+              ],
+              "mailRouting": "C/O Remius Stromberg",
+              "city": "Stockholm",
+              "region": "SE-AB",
+              "country": "SE",
+              "postalCode": "120 62"
+            },
+            {
+              "fieldType": "TransliteratedOtherAddress",
+              "language": "sv",
+              "type": "AUTO_ASCII_TRANSLITERATED_HEADQUARTERS_ADDRESS",
+              "addressLines": [
+                "C/O Remius Stromberg",
+                "Sjofartsgatan 8"
+              ],
+              "mailRouting": "C/O Remius Stromberg",
+              "city": "Stockholm",
+              "region": "SE-AB",
+              "country": "SE",
+              "postalCode": "120 62"
+            }
+          ],
+          "eventGroups": []
+        },
+        "registration": {
+          "initialRegistrationDate": "2023-11-02T13:33:00Z",
+          "lastUpdateDate": "2023-11-02T13:33:00Z",
+          "status": "ISSUED",
+          "nextRenewalDate": "2024-11-02T13:33:00Z",
+          "managingLou": "549300O897ZC5H7CY412",
+          "corroborationLevel": "FULLY_CORROBORATED",
+          "validatedAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "validatedAs": "559180-0502",
+          "otherValidationAuthorities": []
+        },
+        "bic": null,
+        "mic": null,
+        "ocid": null,
+        "spglobal": null
+      },
+      "relationships": {
+        "managing-lou": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700IUH4S4NS1KX906/managing-lou"
+          }
+        },
+        "lei-issuer": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700IUH4S4NS1KX906/lei-issuer"
+          }
+        },
+        "field-modifications": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700IUH4S4NS1KX906/field-modifications"
+          }
+        },
+        "direct-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700IUH4S4NS1KX906/direct-parent-reporting-exception"
+          }
+        },
+        "ultimate-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700IUH4S4NS1KX906/ultimate-parent-reporting-exception"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-records/636700IUH4S4NS1KX906"
+      }
+    },
+    {
+      "type": "lei-records",
+      "id": "636700VUTNRQFTOND238",
+      "attributes": {
+        "lei": "636700VUTNRQFTOND238",
+        "entity": {
+          "legalName": {
+            "name": "CLE Thornberg Invest AB",
+            "language": "sv"
+          },
+          "otherNames": [],
+          "transliteratedOtherNames": [],
+          "legalAddress": {
+            "language": "sv",
+            "addressLines": [
+              "C/O Christopher Thornberg",
+              "Lovisas gata 3"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": "C/O Christopher Thornberg",
+            "city": "Klagshamn",
+            "region": "SE-M",
+            "country": "SE",
+            "postalCode": "218 51"
+          },
+          "headquartersAddress": {
+            "language": "sv",
+            "addressLines": [
+              "C/O Christopher Thornberg",
+              "Lovisas gata 3"
+            ],
+            "addressNumber": null,
+            "addressNumberWithinBuilding": null,
+            "mailRouting": "C/O Christopher Thornberg",
+            "city": "Klagshamn",
+            "region": "SE-M",
+            "country": "SE",
+            "postalCode": "218 51"
+          },
+          "registeredAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "registeredAs": "559317-8113",
+          "jurisdiction": "SE",
+          "category": "GENERAL",
+          "legalForm": {
+            "id": "XJHM",
+            "other": null
+          },
+          "associatedEntity": {
+            "lei": null,
+            "name": null
+          },
+          "status": "ACTIVE",
+          "expiration": {
+            "date": null,
+            "reason": null
+          },
+          "successorEntity": {
+            "lei": null,
+            "name": null
+          },
+          "successorEntities": [],
+          "creationDate": "2021-05-18T00:00:00Z",
+          "subCategory": null,
+          "otherAddresses": [],
+          "eventGroups": []
+        },
+        "registration": {
+          "initialRegistrationDate": "2023-11-02T13:29:00Z",
+          "lastUpdateDate": "2023-11-02T13:29:00Z",
+          "status": "ISSUED",
+          "nextRenewalDate": "2024-11-02T13:29:00Z",
+          "managingLou": "549300O897ZC5H7CY412",
+          "corroborationLevel": "FULLY_CORROBORATED",
+          "validatedAt": {
+            "id": "RA000544",
+            "other": null
+          },
+          "validatedAs": "559317-8113",
+          "otherValidationAuthorities": []
+        },
+        "bic": null,
+        "mic": null,
+        "ocid": null,
+        "spglobal": null
+      },
+      "relationships": {
+        "managing-lou": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700VUTNRQFTOND238/managing-lou"
+          }
+        },
+        "lei-issuer": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700VUTNRQFTOND238/lei-issuer"
+          }
+        },
+        "field-modifications": {
+          "links": {
+            "related": "https://api.gleif.org/api/v1/lei-records/636700VUTNRQFTOND238/field-modifications"
+          }
+        },
+        "direct-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700VUTNRQFTOND238/direct-parent-reporting-exception"
+          }
+        },
+        "ultimate-parent": {
+          "links": {
+            "reporting-exception": "https://api.gleif.org/api/v1/lei-records/636700VUTNRQFTOND238/ultimate-parent-reporting-exception"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.gleif.org/api/v1/lei-records/636700VUTNRQFTOND238"
+      }
+    }
+  ]
+}
