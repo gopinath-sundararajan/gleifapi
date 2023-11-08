@@ -34,7 +34,7 @@ public class GleifApiPaginationServiceImplTest {
     @Test
     public void fetchAllPaginationUrisTest() throws Exception {
         int totalRecords = 25003;
-        when(gleifAppConfig.getPageSize()).thenReturn(250);
+        when(gleifAppConfig.getMaxPageSize()).thenReturn(250);
         when(gleifApiEndPointProperties.getPaginationUri()).thenReturn("https://api.gleif.org/api/v1/lei-records?page[size]=pageSize&page[number]=pageNumber");
         List<String> paginationUris = gleifApiPaginationService.fetchAllPaginationUris(totalRecords);
         Assertions.assertNotNull(paginationUris);
@@ -44,7 +44,7 @@ public class GleifApiPaginationServiceImplTest {
     @Test
     public void fetchThreePagesPaginationUrisTest() throws Exception {
         int totalRecords = 503;
-        when(gleifAppConfig.getPageSize()).thenReturn(250);
+        when(gleifAppConfig.getMaxPageSize()).thenReturn(250);
         when(gleifApiEndPointProperties.getPaginationUri()).thenReturn("https://api.gleif.org/api/v1/lei-records?page[size]=pageSize&page[number]=pageNumber");
         List<String> paginationUris = gleifApiPaginationService.fetchAllPaginationUris(totalRecords);
         Assertions.assertNotNull(paginationUris);

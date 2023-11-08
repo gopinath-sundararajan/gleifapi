@@ -15,7 +15,7 @@ public class GleifApiBatchSplitterServiceImpl implements GleifApiBatchSplitterSe
 
     private final GleifAppConfig gleifAppConfig;
 
-    public GleifApiBatchSplitterService(final GleifAppConfig gleifAppConfig) {
+    public GleifApiBatchSplitterServiceImpl(final GleifAppConfig gleifAppConfig) {
         this.gleifAppConfig = gleifAppConfig;
     }
 
