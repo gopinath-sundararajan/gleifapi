@@ -9,5 +9,5 @@ import org.springframework.context.annotation.Configuration;
 @ConfigurationProperties("gleif-appconfig")
 public class GleifAppConfig {
     private int maxPageSize;
-    private int maxDownloadLeiRecords;
+    private int maxDownloadLeiRecordsPerSession;
 }

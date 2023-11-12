@@ -9,4 +9,4 @@ gleif-endpoints:
 
 gleif-appconfig:
   max-page-size: 200
-  max-download-lei-records: 10000
+  max-download-lei-records-per-session: 10000
